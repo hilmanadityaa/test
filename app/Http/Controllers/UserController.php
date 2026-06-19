@@ -10,7 +10,7 @@ use Illuminate\Http\Request;
 
 class UserController extends Controller
 {
-    private UserRepositoryInterface $userRepository;
+    private UserRepositoryInterface $userRepository;    
 
     public function __construct(UserRepositoryInterface $userRepository)
     {

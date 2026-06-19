@@ -6,4 +6,3 @@ use App\Http\Controllers\UserController;
 
 Route::apiResource('user', UserController::class);
 Route::get('user/all/paginate', [UserController::class, 'getAllPaginated']);
-    
